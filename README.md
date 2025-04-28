@@ -25,20 +25,21 @@ A Next.js web application for booking flights with QbAir airline. Users can book
 ### Installation
 
 1. Clone the repository:
-   \`\`\`
-   git clone https://github.com/alperbaskir/qbair-booking.git
-   cd qbair-booking
-   \`\`\`
+```bash
+git clone https://github.com/alperbaskir/qbair-booking.git
 
-2. Install dependencies:
-   \`\`\`
-   npm install
-   \`\`\`
+cd qbair-booking
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
 
 3. Start the development server:
-   \`\`\`
-   npm run dev
-   \`\`\`
+  ```bash
+  npm run dev
+  ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -51,14 +52,12 @@ The application supports the following URL parameters:
 - `tripType`: Sets the trip type ('oneWay' or 'roundTrip')
 
 Example:
-\`\`\`
 http://localhost:3000/?departure=2023-12-25&return=2023-12-31&tripType=roundTrip
-\`\`\`
 
 ## Deployment
 
 The application is deployed on Vercel and can be accessed at:
-[https://qbair-booking-alper-baskir.vercel.app](https://qbair-booking-alper-baskir.vercel.app)
+[https://qbair-booking-alper-baskir.vercel.app](https://qbair-booking.vercel.app)
 
 ## Built With
 
