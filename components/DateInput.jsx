@@ -1,6 +1,16 @@
-"use client"
+"use client";
 
-const DateInput = ({ label, name, value, onChange, min, error, disabled = false, placeholder, required = false }) => {
+const DateInput = ({
+  label,
+  name,
+  value,
+  onChange,
+  min,
+  error,
+  disabled = false,
+  placeholder,
+  required = false,
+}) => {
   return (
     <div className="flex flex-col space-y-1">
       <label htmlFor={name} className="text-gray-700 font-medium">
@@ -21,7 +31,7 @@ const DateInput = ({ label, name, value, onChange, min, error, disabled = false,
       {error && <p className="text-red-500 text-sm">{error}</p>}
       <p className="text-xs text-gray-500">Format: YYYY-MM-DD</p>
     </div>
-  )
-}
+  );
+};
 
-export default DateInput
+export default DateInput;

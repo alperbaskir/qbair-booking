@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const TripTypeSelector = ({ tripType, onChange }) => {
   return (
@@ -13,7 +13,7 @@ const TripTypeSelector = ({ tripType, onChange }) => {
         </TabsList>
       </Tabs>
     </div>
-  )
-}
+  );
+};
 
-export default TripTypeSelector
+export default TripTypeSelector;
