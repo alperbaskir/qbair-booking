@@ -8,6 +8,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+import { cn } from "@/lib/utils";
+
 const CitySelector = ({
   label,
   name,
@@ -43,7 +45,3 @@ const CitySelector = ({
 };
 
 export default CitySelector;
-
-function cn(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
